@@ -1,4 +1,15 @@
 obj=factory
+name=np-fact-nuclear-fuel-fabrication-facility
+copyright=wa
+
+# TODO
+mapColor=1
+location=Land
+
+%def :image, "nuclear-fuel-fabrication-facility-tile.0.0"
+%buil_image 3, 3, 1, 4, 2
+---
+obj=factory
 name=np-fact-nuclear-power-plant-pwr_kraftwerk
 copyright=wa
 

@@ -52,3 +52,14 @@ location=Land
 
 %def :image, "nuclear-power-plant-pwr-tile.0.0"
 %buil_image 4, 4, 1, 4, 2
+---
+obj=factory
+name=np-fact-nuclear-power-plant-bwr_kraftwerk
+copyright=wa
+
+# TODO
+mapColor=1
+location=Land
+
+%def :image, "nuclear-power-plant-bwr-tile.0.0"
+%buil_image 4, 4, 2, 4, 2

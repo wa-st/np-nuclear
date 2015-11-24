@@ -1,4 +1,15 @@
 obj=factory
+name=np-fact-uranium-mine
+copyright=wa
+
+# TODO
+mapColor=1
+location=Land
+
+%def :image, "uranium-mine-tile.0.0"
+%buil_image 4, 4, 1, 4, 2
+---
+obj=factory
 name=np-fact-spent-fuel-interim-storage-facility
 copyright=wa
 

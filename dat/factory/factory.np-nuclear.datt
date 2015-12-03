@@ -32,6 +32,17 @@ location=Land
 %buil_image 3, 3, 1, 4, 2
 ---
 obj=factory
+name=np-fact-nuclear-fuel-reprocessing-facility
+copyright=wa
+
+# TODO
+mapColor=1
+location=Land
+
+%def :image, "nuclear-fuel-reprocessing-facility-tile.0.0"
+%buil_image 3, 4, 2, 4, 2
+---
+obj=factory
 name=np-fact-deep-geological-repository
 copyright=wa
 

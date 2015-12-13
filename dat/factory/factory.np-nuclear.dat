@@ -3,9 +3,19 @@ obj=factory
 name=np-fact-uranium-mine
 copyright=wa
 
-# TODO
-mapColor=1
 location=Land
+distributionWeight=50
+productivity=250
+range=0
+
+outputGood[0]=uranium
+outputCapacity[0]=250
+outputFactor[0]=250
+
+mapColor=171
+pax_level=20
+needs_ground=0
+climates=desert,tropic,mediterran,temperate,tundra,rocky,arctic
 
 dims=4,4,4
 
@@ -143,9 +153,19 @@ obj=factory
 name=np-fact-spent-fuel-interim-storage-facility
 copyright=wa
 
-# TODO
-mapColor=1
 location=Land
+distributionWeight=50
+productivity=20
+range=0
+
+outputGood[0]=spent-nuclear-fuel
+outputCapacity[0]=100
+outputFactor[0]=100
+
+mapColor=171
+pax_level=10
+needs_ground=0
+climates=desert,tropic,mediterran,temperate,tundra,rocky,arctic
 
 dims=3,3,4
 
@@ -227,9 +247,27 @@ obj=factory
 name=np-fact-uranium-enrichment-facility
 copyright=wa
 
-# TODO
-mapColor=1
 location=Land
+distributionWeight=50
+productivity=100
+range=0
+
+inputGood[0]=uranium
+inputCapacity[0]=150
+inputSupplier[0]=0
+inputFactor[0]=150
+
+outputGood[0]=enriched-uranium
+outputCapacity[0]=100
+outputFactor[0]=100
+outputGood[1]=depleted-uranium
+outputCapacity[1]=120
+outputFactor[1]=120
+
+mapColor=171
+pax_level=15
+needs_ground=0
+climates=desert,tropic,mediterran,temperate,tundra,rocky,arctic
 
 dims=3,3,4
 
@@ -311,9 +349,30 @@ obj=factory
 name=np-fact-nuclear-fuel-reprocessing-facility
 copyright=wa
 
-# TODO
-mapColor=1
 location=Land
+distributionWeight=50
+productivity=100
+range=0
+
+inputGood[0]=spent-nuclear-fuel
+inputCapacity[0]=10
+inputSupplier[0]=0
+inputFactor[0]=10
+
+outputGood[0]=uranium
+outputCapacity[0]=75
+outputFactor[0]=75
+outputGood[1]=plutonium
+outputCapacity[1]=150
+outputFactor[1]=150
+outputGood[2]=radioactive-waste
+outputCapacity[2]=50
+outputFactor[2]=50
+
+mapColor=171
+pax_level=20
+needs_ground=0
+climates=desert,tropic,mediterran,temperate,tundra,rocky,arctic
 
 dims=3,4,4
 
@@ -515,9 +574,20 @@ obj=factory
 name=np-fact-deep-geological-repository
 copyright=wa
 
-# TODO
-mapColor=1
 location=Land
+distributionWeight=50
+productivity=40
+range=0
+
+inputGood[0]=radioactive-waste
+inputCapacity[0]=100
+inputSupplier[0]=0
+inputFactor[0]=100
+
+mapColor=171
+pax_level=5
+needs_ground=0
+climates=desert,tropic,mediterran,temperate,tundra,rocky,arctic
 
 dims=4,4,4
 
@@ -655,9 +725,28 @@ obj=factory
 name=np-fact-nuclear-fuel-fabrication-facility
 copyright=wa
 
-# TODO
-mapColor=1
 location=Land
+distributionWeight=50
+productivity=250
+range=0
+
+inputGood[0]=enriched-uranium
+inputCapacity[0]=80
+inputSupplier[0]=0
+inputFactor[0]=80
+inputGood[1]=Stahl
+inputCapacity[1]=6
+inputSupplier[1]=0
+inputFactor[1]=6
+
+outputGood[0]=nuclear-fuel
+outputCapacity[0]=100
+outputFactor[0]=100
+
+mapColor=171
+pax_level=15
+needs_ground=0
+climates=desert,tropic,mediterran,temperate,tundra,rocky,arctic
 
 dims=3,3,4
 
@@ -739,9 +828,32 @@ obj=factory
 name=np-fact-mox-fuel-fabrication-facility
 copyright=wa
 
-# TODO
-mapColor=1
 location=Land
+distributionWeight=50
+productivity=250
+range=0
+
+inputGood[0]=depleted-uranium
+inputCapacity[0]=19
+inputSupplier[0]=0
+inputFactor[0]=19
+inputGood[1]=plutonium
+inputCapacity[1]=16
+inputSupplier[1]=0
+inputFactor[1]=16
+inputGood[2]=Stahl
+inputCapacity[2]=6
+inputSupplier[2]=0
+inputFactor[2]=6
+
+outputGood[0]=nuclear-fuel
+outputCapacity[0]=100
+outputFactor[0]=100
+
+mapColor=171
+pax_level=15
+needs_ground=0
+climates=desert,tropic,mediterran,temperate,tundra,rocky,arctic
 
 dims=3,3,4
 
@@ -823,9 +935,20 @@ obj=factory
 name=np-fact-nuclear-power-plant-pwr_kraftwerk
 copyright=wa
 
-# TODO
-mapColor=1
 location=Land
+distributionWeight=50
+productivity=500
+range=0
+
+inputGood[0]=nuclear-fuel
+inputCapacity[0]=10
+inputSupplier[0]=0
+inputFactor[0]=10
+
+mapColor=171
+pax_level=30
+needs_ground=0
+climates=desert,tropic,mediterran,temperate,tundra,rocky,arctic
 
 dims=4,4,4
 
@@ -963,9 +1086,20 @@ obj=factory
 name=np-fact-nuclear-power-plant-bwr_kraftwerk
 copyright=wa
 
-# TODO
-mapColor=1
 location=Land
+distributionWeight=50
+productivity=500
+range=0
+
+inputGood[0]=nuclear-fuel
+inputCapacity[0]=10
+inputSupplier[0]=0
+inputFactor[0]=10
+
+mapColor=171
+pax_level=30
+needs_ground=0
+climates=desert,tropic,mediterran,temperate,tundra,rocky,arctic
 
 dims=4,4,4
 

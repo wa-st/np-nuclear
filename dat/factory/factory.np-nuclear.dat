@@ -9,7 +9,7 @@ productivity=250
 range=0
 
 outputGood[0]=uranium
-outputCapacity[0]=250
+outputCapacity[0]=1000
 outputFactor[0]=250
 
 mapColor=171
@@ -159,7 +159,7 @@ productivity=300
 range=0
 
 outputGood[0]=spent-nuclear-fuel
-outputCapacity[0]=100
+outputCapacity[0]=1000
 outputFactor[0]=100
 
 mapColor=171
@@ -253,15 +253,15 @@ productivity=100
 range=0
 
 inputGood[0]=uranium
-inputCapacity[0]=150
+inputCapacity[0]=300
 inputSupplier[0]=0
 inputFactor[0]=150
 
 outputGood[0]=enriched-uranium
-outputCapacity[0]=100
+outputCapacity[0]=200
 outputFactor[0]=100
 outputGood[1]=depleted-uranium
-outputCapacity[1]=120
+outputCapacity[1]=240
 outputFactor[1]=120
 
 mapColor=171
@@ -355,18 +355,18 @@ productivity=100
 range=0
 
 inputGood[0]=spent-nuclear-fuel
-inputCapacity[0]=200
+inputCapacity[0]=400
 inputSupplier[0]=0
 inputFactor[0]=200
 
 outputGood[0]=uranium
-outputCapacity[0]=25
+outputCapacity[0]=100
 outputFactor[0]=25
 outputGood[1]=plutonium
-outputCapacity[1]=50
+outputCapacity[1]=100
 outputFactor[1]=50
 outputGood[2]=radioactive-waste
-outputCapacity[2]=25
+outputCapacity[2]=100
 outputFactor[2]=25
 
 mapColor=171
@@ -731,16 +731,16 @@ productivity=250
 range=0
 
 inputGood[0]=enriched-uranium
-inputCapacity[0]=80
+inputCapacity[0]=400
 inputSupplier[0]=0
 inputFactor[0]=80
 inputGood[1]=Stahl
-inputCapacity[1]=6
+inputCapacity[1]=100
 inputSupplier[1]=0
 inputFactor[1]=6
 
 outputGood[0]=nuclear-fuel
-outputCapacity[0]=100
+outputCapacity[0]=500
 outputFactor[0]=100
 
 mapColor=171
@@ -834,20 +834,20 @@ productivity=250
 range=0
 
 inputGood[0]=depleted-uranium
-inputCapacity[0]=19
+inputCapacity[0]=100
 inputSupplier[0]=0
 inputFactor[0]=19
 inputGood[1]=plutonium
-inputCapacity[1]=16
+inputCapacity[1]=100
 inputSupplier[1]=0
 inputFactor[1]=16
 inputGood[2]=Stahl
-inputCapacity[2]=6
+inputCapacity[2]=100
 inputSupplier[2]=0
 inputFactor[2]=6
 
 outputGood[0]=nuclear-fuel
-outputCapacity[0]=100
+outputCapacity[0]=500
 outputFactor[0]=100
 
 mapColor=171
@@ -941,7 +941,7 @@ productivity=500
 range=0
 
 inputGood[0]=nuclear-fuel
-inputCapacity[0]=10
+inputCapacity[0]=100
 inputSupplier[0]=0
 inputFactor[0]=10
 
@@ -1092,7 +1092,7 @@ productivity=500
 range=0
 
 inputGood[0]=nuclear-fuel
-inputCapacity[0]=10
+inputCapacity[0]=100
 inputSupplier[0]=0
 inputFactor[0]=10
 

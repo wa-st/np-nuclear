@@ -155,7 +155,7 @@ copyright=wa
 
 location=Land
 distributionWeight=50
-productivity=20
+productivity=300
 range=0
 
 outputGood[0]=spent-nuclear-fuel
@@ -355,19 +355,19 @@ productivity=100
 range=0
 
 inputGood[0]=spent-nuclear-fuel
-inputCapacity[0]=10
+inputCapacity[0]=200
 inputSupplier[0]=0
-inputFactor[0]=10
+inputFactor[0]=200
 
 outputGood[0]=uranium
-outputCapacity[0]=75
-outputFactor[0]=75
+outputCapacity[0]=25
+outputFactor[0]=25
 outputGood[1]=plutonium
-outputCapacity[1]=150
-outputFactor[1]=150
+outputCapacity[1]=50
+outputFactor[1]=50
 outputGood[2]=radioactive-waste
-outputCapacity[2]=50
-outputFactor[2]=50
+outputCapacity[2]=25
+outputFactor[2]=25
 
 mapColor=171
 pax_level=20
@@ -576,7 +576,7 @@ copyright=wa
 
 location=Land
 distributionWeight=50
-productivity=40
+productivity=25
 range=0
 
 inputGood[0]=radioactive-waste

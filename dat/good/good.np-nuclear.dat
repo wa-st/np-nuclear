@@ -45,11 +45,11 @@ mapColor=171
 ---
 obj=good
 name=spent-nuclear-fuel
-metric=cask
+metric=paletten
 catg=1
-value=10000
+value=2000
 speed_bonus=8
-weight_per_unit=60000
+weight_per_unit=300
 mapColor=171
 ---
 obj=good

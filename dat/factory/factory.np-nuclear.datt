@@ -92,7 +92,7 @@ outputCapacity[1]=100
 outputFactor[1]=50
 outputGood[2]=radioactive-waste
 outputCapacity[2]=100
-outputFactor[2]=25
+outputFactor[2]=100
 
 mapColor=171
 pax_level=20
@@ -108,7 +108,7 @@ copyright=wa
 
 location=Land
 distributionWeight=50
-productivity=25
+productivity=100
 range=0
 
 inputGood[0]=radioactive-waste

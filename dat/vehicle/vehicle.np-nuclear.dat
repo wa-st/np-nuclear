@@ -9,6 +9,10 @@ cost=350000
 weight=12
 runningCost=2000
 sound=-1
+
+intro_year=1963
+intro_month=10
+
 constraint[Prev][0]=VolvoFH12
 constraint[Prev][1]=RenaultTH5
 constraint[Prev][2]=Mack_Truck_01
@@ -73,6 +77,9 @@ weight=6
 speed=75
 runningCost=2500
 sound=-1
+
+intro_year=1963
+intro_month=10
 
 freightImageType[0]=enriched-uranium
 freightImageType[1]=nuclear-fuel

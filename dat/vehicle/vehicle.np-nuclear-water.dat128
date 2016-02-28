@@ -12,6 +12,10 @@ weight=210
 power=600
 runningCost=80000
 gear=200
+
+intro_year=1963
+intro_month=10
+
 constraint[Prev][0]=none
 constraint[Next][0]=none
 

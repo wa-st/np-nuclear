@@ -11,6 +11,9 @@ outputGood[0]=uranium
 outputCapacity[0]=1000
 outputFactor[0]=250
 
+intro_year=1963
+intro_month=10
+
 mapColor=171
 pax_level=20
 needs_ground=0
@@ -31,6 +34,9 @@ range=0
 outputGood[0]=spent-nuclear-fuel
 outputCapacity[0]=1000
 outputFactor[0]=100
+
+intro_year=1963
+intro_month=10
 
 mapColor=171
 pax_level=10
@@ -61,6 +67,9 @@ outputFactor[0]=100
 outputGood[1]=depleted-uranium
 outputCapacity[1]=240
 outputFactor[1]=120
+
+intro_year=1963
+intro_month=10
 
 mapColor=171
 pax_level=15
@@ -94,6 +103,9 @@ outputGood[2]=radioactive-waste
 outputCapacity[2]=100
 outputFactor[2]=100
 
+intro_year=1963
+intro_month=10
+
 mapColor=171
 pax_level=20
 needs_ground=0
@@ -115,6 +127,9 @@ inputGood[0]=radioactive-waste
 inputCapacity[0]=100
 inputSupplier[0]=0
 inputFactor[0]=100
+
+intro_year=1963
+intro_month=10
 
 mapColor=171
 pax_level=5
@@ -145,6 +160,9 @@ inputFactor[1]=6
 outputGood[0]=nuclear-fuel
 outputCapacity[0]=500
 outputFactor[0]=100
+
+intro_year=1963
+intro_month=10
 
 mapColor=171
 pax_level=15
@@ -180,6 +198,9 @@ outputGood[0]=nuclear-fuel
 outputCapacity[0]=500
 outputFactor[0]=100
 
+intro_year=1963
+intro_month=10
+
 mapColor=171
 pax_level=15
 needs_ground=0
@@ -202,6 +223,9 @@ inputCapacity[0]=100
 inputSupplier[0]=0
 inputFactor[0]=10
 
+intro_year=1963
+intro_month=10
+
 mapColor=171
 pax_level=30
 needs_ground=0
@@ -223,6 +247,9 @@ inputGood[0]=nuclear-fuel
 inputCapacity[0]=100
 inputSupplier[0]=0
 inputFactor[0]=10
+
+intro_year=1963
+intro_month=10
 
 mapColor=171
 pax_level=30

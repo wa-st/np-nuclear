@@ -1,0 +1,51 @@
+﻿digraph sample {
+	node[fontname="Meiryo", fontsize=9, shape=record, style=filled, fillcolor="#EEEEEE", color="#EEEEEE"];
+	edge[fontname="Meiryo", fontsize=9, arrowsize = 0.75, color="#AAAAAA"];
+
+	good_uranium[label="ウラン\nuranium", shape=plaintext, style=solid]
+	good_spent_nuclear_fuel[label="使用済み核燃料\nspent-nuclear-fuel", shape=plaintext, style=solid]
+	good_enriched_uranium[label="濃縮ウラン\nenriched-uranium", shape=plaintext, style=solid]
+	good_depleted_uranium[label="劣化ウラン\ndepleted-uranium", shape=plaintext, style=solid]
+	good_plutonium[label="プルトニウム\nplutonium", shape=plaintext, style=solid]
+	good_radioactive_waste[label="放射性廃棄物\nradioactive-waste", shape=plaintext, style=solid]
+	good_Stahl[label="鉄鋼\nStahl", shape=plaintext, style=solid]
+	good_nuclear_fuel[label="燃料集合体\nnuclear-fuel", shape=plaintext, style=solid]
+
+	fact_np_fact_uranium_mine[label="ウラン鉱山／製錬工場\nuranium-mine"]
+	fact_np_fact_uranium_mine -> good_uranium
+
+	fact_np_fact_spent_fuel_interim_storage_facility[label="使用済燃料中間貯蔵施設\nspent-fuel-interim-storage-facility"]
+	fact_np_fact_spent_fuel_interim_storage_facility -> good_spent_nuclear_fuel
+
+	fact_np_fact_uranium_enrichment_facility[label="ウラン濃縮工場\nuranium-enrichment-facility"]
+	good_uranium -> fact_np_fact_uranium_enrichment_facility
+	fact_np_fact_uranium_enrichment_facility -> good_enriched_uranium
+	fact_np_fact_uranium_enrichment_facility -> good_depleted_uranium
+
+	fact_np_fact_nuclear_fuel_reprocessing_facility[label="再処理工場\nnuclear-fuel-reprocessing-facility"]
+	good_spent_nuclear_fuel -> fact_np_fact_nuclear_fuel_reprocessing_facility
+	fact_np_fact_nuclear_fuel_reprocessing_facility -> good_uranium
+	fact_np_fact_nuclear_fuel_reprocessing_facility -> good_plutonium
+	fact_np_fact_nuclear_fuel_reprocessing_facility -> good_radioactive_waste
+
+	fact_np_fact_deep_geological_repository[label="高レベル放射性廃棄物処分施設\ndeep-geological-repository"]
+	good_radioactive_waste -> fact_np_fact_deep_geological_repository
+
+	fact_np_fact_nuclear_fuel_fabrication_facility[label="ウラン燃料加工工場\nnuclear-fuel-fabrication-facility"]
+	good_enriched_uranium -> fact_np_fact_nuclear_fuel_fabrication_facility
+	good_Stahl -> fact_np_fact_nuclear_fuel_fabrication_facility
+	fact_np_fact_nuclear_fuel_fabrication_facility -> good_nuclear_fuel
+
+	fact_np_fact_mox_fuel_fabrication_facility[label="ＭＯＸ燃料加工工場\nmox-fuel-fabrication-facility"]
+	good_depleted_uranium -> fact_np_fact_mox_fuel_fabrication_facility
+	good_plutonium -> fact_np_fact_mox_fuel_fabrication_facility
+	good_Stahl -> fact_np_fact_mox_fuel_fabrication_facility
+	fact_np_fact_mox_fuel_fabrication_facility -> good_nuclear_fuel
+
+	fact_np_fact_nuclear_power_plant_pwr_kraftwerk[label="原子力発電所（ＰＷＲ）\nnuclear-power-plant-pwr_kraftwerk"]
+	good_nuclear_fuel -> fact_np_fact_nuclear_power_plant_pwr_kraftwerk
+
+	fact_np_fact_nuclear_power_plant_bwr_kraftwerk[label="原子力発電所（ＢＷＲ）\nnuclear-power-plant-bwr_kraftwerk"]
+	good_nuclear_fuel -> fact_np_fact_nuclear_power_plant_bwr_kraftwerk
+
+}

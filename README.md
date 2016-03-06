@@ -4,6 +4,7 @@
 
 ### 本産業チェーンでの核燃料サイクルの概要
 ![チェーン](https://raw.githubusercontent.com/wiki/wa-st/np-nuclear/cycle.png)
+
 現実との違い
 - 原子力発電所と使用済燃料中間貯蔵施設を結ぶパスは省略しています。
 - 転換工場と再転換工場は省略しています。
